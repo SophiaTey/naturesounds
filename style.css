@@ -58,7 +58,6 @@ a{
     }
 }
 
-/* до 1140px */
 @media (max-width: 1140px){
     #btn-container{
         gap: 15px;
@@ -72,7 +71,7 @@ a{
     }
 }
 
-/* до 940px */
+
 @media (max-width: 940px){
     #btn-container{
         flex-direction: column;
@@ -92,7 +91,6 @@ a{
     }
 }
 
-/* до 720px */
 @media (max-width: 720px){
     h1{
         font-size: 28px;
@@ -106,7 +104,7 @@ a{
     }
 }
 
-/* до 540px */
+
 @media (max-width: 540px){
     h1{
         font-size: 24px;
@@ -125,3 +123,4 @@ a{
         background: linear-gradient(to right, #98e4c4, #f0f3f5);
     }
 }
+
