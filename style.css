@@ -43,4 +43,85 @@ a{
     min-width: 100%;
     min-height: 100%;
     z-index:-10 ;
+
+}
+
+@media (max-width: 1380px){
+    h1{
+        font-size: 35px;
+    }
+    #btn{
+        padding: 22px 35px;
+    }
+    a{
+        font-size: 23px;
+    }
+}
+
+/* до 1140px */
+@media (max-width: 1140px){
+    #btn-container{
+        gap: 15px;
+        margin-top: 150px;
+    }
+    #btn{
+        padding: 20px 30px;
+    }
+    a{
+        font-size: 21px;
+    }
+}
+
+/* до 940px */
+@media (max-width: 940px){
+    #btn-container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 120px;
+    }
+    #btn{
+        width: 60%;
+        text-align: center;
+        padding: 18px 0;
+    }
+    a{
+        font-size: 20px;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
+
+/* до 720px */
+@media (max-width: 720px){
+    h1{
+        font-size: 28px;
+    }
+    #btn{
+        width: 70%;
+        padding: 16px 0;
+    }
+    a{
+        font-size: 18px;
+    }
+}
+
+/* до 540px */
+@media (max-width: 540px){
+    h1{
+        font-size: 24px;
+        text-align: center;
+        padding: 10px;
+    }
+    #btn{
+        width: 80%;
+        padding: 14px 0;
+        border-radius: 20px;
+    }
+    a{
+        font-size: 16px;
+    }
+    body{
+        background: linear-gradient(to right, #98e4c4, #f0f3f5);
+    }
 }
